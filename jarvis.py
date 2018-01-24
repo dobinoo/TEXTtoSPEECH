@@ -8,7 +8,7 @@ print "This is TEXTtoSPEECH simple aplication"
 s = raw_input("Your text: ")
 print "This text will be converted to SPEECH\n"
 print colored(s,"magenta")
-time.sleep(5)
+time.sleep(3)
 engine.say(s)
 engine.runAndWait()
 
