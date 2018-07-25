@@ -12,6 +12,7 @@ time.sleep(3)
 engine.say(s)
 engine.runAndWait()
 
+######################### exiting
 print colored("\n\nSucessfully performed text to speech","green")
 print colored("Ending program","red")
 time.sleep(2)
